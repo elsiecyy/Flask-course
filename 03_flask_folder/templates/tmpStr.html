@@ -1,0 +1,11 @@
+<h1>{{tmpStr}}</h1>
+<form action="/hello" method="POST">
+    <button type="submit">press me</button>
+</form>
+{% if request_method == 'POST' %}
+<h1>1139393939</h1>
+{% endif %}
+
+{% for i in tmpList %}
+<h3><b>{{i}}</b></h3>
+{% endfor %}
